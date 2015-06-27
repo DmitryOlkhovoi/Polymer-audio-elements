@@ -6,8 +6,8 @@
 #audio-processor
 ####Usage
 
-````js
-    <audio-processor id="processor1"></audio-processor>
+````html
+  <audio-processor id="processor1"></audio-processor>
 ````
 Use **id** for identity processor for further using.
 
@@ -32,8 +32,8 @@ properties: {
 
 #audio-visualizer
 ####Usage
-```js
-    <audio-visualizer processor-id="processor1"></audio-visualizer>
+```html
+  <audio-visualizer processor-id="processor1"></audio-visualizer>
 ```
 Use **id** to specify audio-processor.
 ##API
