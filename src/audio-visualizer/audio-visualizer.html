@@ -1,0 +1,25 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<dom-module id="audio-visualizer">
+    <style>
+        :host{
+            --bg: #212121;
+            --wave-fill: none;
+            --wave-stroke: #E91E63;
+        }
+        svg{
+            background: var(--bg);
+            @apply(--svg-mix);
+        }
+        path{
+            fill: var(--wave-fill);
+            stroke: var(--wave-stroke);
+            @apply(--wave-mix);
+        }
+    </style>
+    <template>
+        <svg  height$="[[height]]" width$="[[width]]">
+            <path id="path" d$="[[d]]"/>
+        </svg>
+    </template>
+</dom-module>
+<script src="./script.js"></script>
