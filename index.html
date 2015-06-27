@@ -8,6 +8,15 @@
     <link rel="import" href="./src/audio-visualizer/audio-visualizer.html"/>
 </head>
 <body>
+    <style is="custom-style">
+        audio-visualizer{
+            --bg: #0288D1;
+            --wave-stroke: #03A9F4;
+            --wave-mix:{
+                stroke-width: 3px;
+            }
+        }
+    </style>
     <audio-processor id="processor1"></audio-processor>
     <audio-visualizer processor-id="processor1"></audio-visualizer>
 </body>
