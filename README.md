@@ -6,14 +6,14 @@
 #audio-processor
 ####Usage
 
-````
+````js
     <audio-processor id="processor1"></audio-processor>
 ````
 Use **id** for identity processor for further using.
 
 ##API
 ####Properties
-```
+```js
 properties: {
         fps: { //frame rate per second
             type: Number,
@@ -32,14 +32,14 @@ properties: {
 
 #audio-visualizer
 ####Usage
-```
+```js
     <audio-visualizer processor-id="processor1"></audio-visualizer>
 ```
 Use **id** to specify audio-processor.
 ##API
 
 ####Properties
-```
+```js
         processorId: String,
         //size of svg
         width: {
