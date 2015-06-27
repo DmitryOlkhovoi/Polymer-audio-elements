@@ -23,7 +23,7 @@ properties: {
             type: Number,
             value: 2048
         }
-    },
+},
 ```
 
 ####Events
@@ -40,6 +40,7 @@ Use **id** to specify audio-processor.
 
 ####Properties
 ```js
+properties:{
         processorId: String,
         //size of svg
         width: {
@@ -50,6 +51,7 @@ Use **id** to specify audio-processor.
             type: Number,
             value: 300
         }
+}
 ```
 
 ####Custom properties
