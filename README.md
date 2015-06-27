@@ -40,7 +40,7 @@ Use **id** to specify audio-processor.
 
 ####Properties
 ```js
-properties:{
+properties: {
         processorId: String,
         //size of svg
         width: {
