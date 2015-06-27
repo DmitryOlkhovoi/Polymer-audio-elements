@@ -1,1 +1,4 @@
-# audio-visualizer_element
+# Polymer audio-elements
+
+audio-processor (mic)
+audio-visualizer
