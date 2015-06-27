@@ -1,5 +1,7 @@
 # Polymer audio elements
 
+![alt tag](https://github.com/DmitryTrigonis/Polymer-audio-elements/blob/master/wave.png?raw=true)
+
   - audio-processor(mic only)
   - audio-vizualize(svg waveform)
 
