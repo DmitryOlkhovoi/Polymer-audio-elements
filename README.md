@@ -65,3 +65,4 @@ properties: {
 - --svg-mix
 - --wave-mix
 
+MIT
