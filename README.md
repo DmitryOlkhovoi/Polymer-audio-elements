@@ -66,3 +66,5 @@ properties: {
 - --wave-mix
 
 MIT
+release-0.1
+
